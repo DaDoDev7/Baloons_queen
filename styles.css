@@ -1,0 +1,544 @@
+/* General */
+::selection{
+    background-color: darksalmon;
+    color: white;
+}
+html {
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+body{
+    background-color: white;
+ 
+}
+.total{
+    margin:0 10px;
+}
+a{
+    text-decoration: none;
+}
+span{
+    font-size: 23px;
+    line-height: 30px;
+}
+cite{
+    font-size: 23px;
+}
+/* Wrapper */
+
+.wrapper{
+    max-width: 1000px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin: 0 auto;
+}
+
+/* header */
+
+.backgroundanchor{
+    background: url(img/balloons.png) no-repeat right bottom/400px, url(img/confettis.svg)no-repeat fixed 30px -260px/1020px,#fed1de;
+    max-width: 1000px;
+    margin: 0 auto 20px;
+   
+    
+}
+.nav-menu{
+    display: none;
+}
+.main-nav{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.main-nav a img{
+    width: 340px;
+    margin: 20px;
+    
+   
+}
+/* burger menu */
+.burger-menu{
+    width: 30px;
+    height: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 10px;
+    
+   
+   
+}
+.line1,.line2,.line3{
+    width: 60%;
+    height: 2px;
+    border: black 1.5px solid;
+    border-radius: 5px;
+    background-color: black;
+}
+/* navmenu */
+
+/* HIGH quality balloons */
+
+.header{
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start ;
+    font-size: 25px;
+    font-weight:400;
+}
+.header h1,h2{
+    font-weight: 400;
+    color: rgb(50, 47, 47);
+    
+}
+.big-news{
+    padding: 90px 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.btn{
+    padding: 15px 20px;
+    background-color:#e4a28d; ;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    border: white 1px solid;
+   
+}
+.white{
+    background-color: white;
+    color: black;
+    border-color: rgba(146, 143, 143, 0.491);
+}
+
+
+
+/* news section */
+
+.newsimages{
+    margin-bottom: 250px;
+}
+
+.firstthreenews{
+    width: 100%;
+}
+.imgnews{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 425px;
+    margin-bottom: 20px;
+    align-items: flex-start;
+   
+}
+.newsimages .imgnews{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 425px;
+    margin-bottom: 20px;
+    align-items: flex-start;
+
+}
+.parties{
+    background: url(img/parties.jpg) no-repeat center/cover;
+  
+}
+.weddings{
+    background: url(img/wedding.jpg)no-repeat center/cover;
+   
+}
+.christenings{
+    background: url(img/heart.jpg)no-repeat center/cover;
+}
+.birthdays{
+    background: url(img/full-balloons.jpg)no-repeat center/cover;
+    
+
+}
+.textswipe{
+    background-color: rgba(255, 255, 255, 0.587);
+    width: 100%;
+    height:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-left: 30px;   
+    padding-right: 200px; 
+    
+   
+}
+.textswipe h1{
+    font-size: 20px;
+}
+.textswipe span{
+    font-size: 12px;
+    line-height: 18px;
+}
+
+/* love image */
+
+.katie{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+.love{
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 50px;
+    width: 100%;
+    
+}
+.imglove{
+    width: 100%;
+    height: 500px;
+    background: url(img/about.jpg)no-repeat center/cover;
+}
+.katiehibbs{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    background:url(img/katie-cut-out.png) center -35px /cover hwb(0 99% 0%);
+    border-radius: 50%;
+    top: -30px;
+    right: 10px;
+    box-shadow: 0 6px 10px 0 rgb(0 0 0 / 60%)
+    
+}
+.katiehibbs::after{
+    content: 'Katie Hibbs';
+    position: absolute;
+    bottom: -15px;
+    right: 0;
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+/* i love what i do */
+
+.ilovewhatido{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.ilovewhatido span:nth-of-type(1){
+    font-size: 19px;
+    margin-left: 20px;
+
+}
+.ilovewhatido span:nth-of-type(2){
+    font-size: 34px;
+    margin: 30px 0;
+    margin-left: 20px;
+    
+}
+.ilovewhatido span:nth-of-type(3){
+    padding-right: 200px;
+    line-height: 25px;
+    font-size: 14px;
+    margin-left: 20px;
+}
+.ilovewhatido cite{
+    margin: 15px 0;
+    padding:19px 35px;
+    line-height: 30px;
+    border-left: 1px solid #e4a28d;
+    font-size: 17px;
+    margin-left: 10px;
+}
+/* baloon making services */
+.baloonmaking {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 40px;
+    
+}
+.blueballoonstext{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.baloonmaking span:nth-of-type(1){
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.baloonmaking span:nth-of-type(2){
+    font-size: 40px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.baloonmaking span:nth-of-type(3){
+    font-size: 14px;
+    padding-right: 350px;
+    line-height: 24px;
+    margin-left: 20px;
+}
+ul{
+    line-height: 38px;
+    font-size: 14px;
+    list-style-type: square;
+}
+.blueballoons{
+    width: 100%;
+    background: url(img/blue.jpg)no-repeat center/cover;
+    height: 500px;
+}
+/* Collection and prices*/
+.collectionandprices{
+    text-align: center;
+    max-width: 1000px;
+    margin: 0  auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    
+}
+.catalogue{
+    display: flex;
+    max-width: 1000px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+    margin:  0 30px;
+}
+.balloon{
+    margin: 20px 20px;
+    width: 150px;
+   
+}
+.circle{
+    border-radius: 50%;
+    width:150px;
+    height: 150px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    background: url(img/price12.jpeg) center/cover;
+}
+.titrecirle{
+    font-size: 12px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+.price{
+    font-size: 12px;
+    display: block;
+    font-weight: 100;
+}
+
+/* Footer */
+
+.wehavearange{
+    padding: 100px 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+    justify-content: center;
+}
+.buttons{
+    display: flex;
+   margin: 20px auto;
+}
+.buttons .btn{
+    margin-right: 10px;
+}
+.wehavearange text{
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+}
+.wehavearange text strong,span{
+    font-size: 15px;
+}
+.areaswecover{
+    padding: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+    
+}
+.areaswecover strong{
+    padding: 20px;
+}
+.seemyballons{
+    width: 100%;
+    height:300px;
+    margin: 0 0 80px;
+    background: url(img/confettis.svg)no-repeat center/cover,#fed1de;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.seemyballoonscontent{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+@media screen and (min-width:900px) {
+    .burger-menu{
+        display: none;
+    }
+    .nav-menu{
+        display: block;
+        text-align: center;
+        display: flex;
+        align-content: center;
+        margin-bottom: 40px;
+    }
+    .main-nav{
+        background-color: white;
+        width: 100%;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 13px;
+    }
+    .nav-menu a{
+        text-transform: uppercase;
+        color: black;
+        padding:0 40px;
+        text-align: center;
+    }
+    .header{
+        background: url(img/balloons.png) no-repeat left bottom/400px, url(img/confettis.svg)no-repeat fixed ,#fed1de;
+        max-width: 1000px;
+        margin: 0 auto 20px;
+        height: 500px;
+    }
+    .big-news{
+        padding-right: 20px;
+        padding-left: 500px;
+    }
+    .big-news h1{
+        font-size: 40px;
+        font-weight: 300;
+    }
+    .big-news h2{
+        font-size: 20px;
+        margin-bottom: 40px;
+    /* fin header */
+    }
+    .newsimages{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .birthdays{
+        display: block;
+    }
+    .firstthreenews{
+        display: flex;
+        flex-flow: row;
+        flex-wrap: nowrap;
+        height: 500px;
+        margin-bottom: 20px;
+        justify-content: space-between;
+    } 
+    .imgnews{
+        filter: grayscale();
+        position: relative;
+        overflow: hidden;
+        transition: all .3s ease-in-out;
+    }
+    .firstthreenews .imgnews{
+        /* width: calc(calc(100% / 3) - 10px); */
+        width: 100%;
+        height: 100%;
+    } 
+    .weddings,.parties{
+        margin-right: 10px;
+    }
+    .textswipe{
+        transform: translateY(100%);
+        padding-left: 30px;   
+        padding-right: 50px; 
+        transition: all .3s ease-in-out;
+    }
+    .textswipe h1{
+        font-size: 17px;
+    }
+    .imgnews:hover .textswipe{
+        transform: translateY(-0%);
+    }
+    .imgnews:hover{
+        filter: none;
+     }
+     .firstthreenews .imgnews:hover{
+        width: 145%;
+     }
+     /* Katie */
+     .katie{
+        flex-direction: row;
+        justify-content: space-evenly;
+     }
+     .love{
+        width: 50%;
+        margin-right: 20px;
+     }
+     .ilovewhatido{
+        width: 50%;
+     }
+     .baloonmaking{
+        flex-direction: row;
+        justify-content: space-evenly;
+
+     }
+     .blueballoonstext{
+        width: 50%;
+     }
+     .blueballoons{
+        width: 50%;
+     }
+     .baloonmaking span:nth-of-type(1){
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    .baloonmaking span:nth-of-type(2){
+        font-size: 26px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .baloonmaking span:nth-of-type(3){
+        font-size: 14px;
+        padding-right: 30px;
+        line-height: 30px;
+        margin-left: 20px;
+    }
+    ul{
+        line-height: 30px;
+    }
+    .ilovewhatido span:nth-of-type(3){
+        padding-right: 30px;
+    }
+
+}
